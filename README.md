@@ -1,3 +1,5 @@
+[中文版](README_CN.md) | [English](README.md)
+
 # Snake Game - Functional Programming Version
 
 ## 📋 Introduction
@@ -121,4 +123,4 @@ python3 snake_functional.py
 
 ## 🔄 Compare with OOP Version
 
-Check out `../oop_version/` to learn about the advantages of object-oriented programming!
+Check out `../snake-game-oop/` to learn about the advantages of object-oriented programming!
