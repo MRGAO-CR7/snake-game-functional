@@ -65,6 +65,34 @@ snake_functional.py
 └── main()
 ```
 
+## 🔧 环境配置
+
+### macOS
+1. **安装 Python 3.11+**（如果尚未安装）：
+   ```bash
+   brew install python3
+   ```
+
+2. **安装 tkinter**（GUI 所需）：
+   ```bash
+   brew install python-tk
+   ```
+
+3. **验证安装**：
+   ```bash
+   python3 -c "import tkinter; print('tkinter 已就绪!')"
+   ```
+
+### Windows
+1. **从 [python.org](https://www.python.org/downloads/) 安装 Python 3.11+**
+   - ✅ 安装时勾选 "Add Python to PATH"
+   - ✅ Windows 版本的 Python 默认包含 tkinter
+
+2. **验证安装**：
+   ```cmd
+   python -c "import tkinter; print('tkinter 已就绪!')"
+   ```
+
 ## 🎮 运行方式
 
 ```bash
