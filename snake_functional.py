@@ -13,7 +13,7 @@ GRID_SIZE = 20
 CELL_SIZE = 25
 INITIAL_GAME_SPEED = 600  # Start slower (higher value = slower)
 MIN_GAME_SPEED = 50  # Fastest speed
-SPEED_DECREASE = 5  # Speed up by this amount each food eaten
+SPEED_DECREASE = 15  # Speed up by this amount each food eaten
 
 # Game state
 snake = []
@@ -361,7 +361,7 @@ def create_gui():
         bg="#2c3e50",
         fg="white"
     )
-    title_label.pack(pady=10)
+    title_label.pack(pady=(2, 2))
     
     score_label = tk.Label(
         header_frame,
